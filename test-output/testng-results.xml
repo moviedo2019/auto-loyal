@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21391" started-at="2021-04-11T00:33:18Z" finished-at="2021-04-11T00:33:39Z">
+    <groups>
+      <group name="contact">
+        <method signature="TestHome.test_3()[pri:0, instance:test.TestHome@2ed0fbae]" name="test_3" class="test.TestHome"/>
+      </group> <!-- contact -->
+      <group name="faq">
+        <method signature="TestHome.test_4()[pri:0, instance:test.TestHome@2ed0fbae]" name="test_4" class="test.TestHome"/>
+      </group> <!-- faq -->
+      <group name="home">
+        <method signature="TestHome.test_1()[pri:0, instance:test.TestHome@2ed0fbae]" name="test_1" class="test.TestHome"/>
+        <method signature="TestHome.test_2()[pri:0, instance:test.TestHome@2ed0fbae]" name="test_2" class="test.TestHome"/>
+      </group> <!-- home -->
+    </groups>
+    <test name="Default test" duration-ms="21391" started-at="2021-04-11T00:33:18Z" finished-at="2021-04-11T00:33:39Z">
+      <class name="test.TestHome">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.TestHome@2ed0fbae]" name="setup" is-config="true" duration-ms="8531" started-at="2021-04-10T21:33:18Z" finished-at="2021-04-10T21:33:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.TestHome@2ed0fbae]" name="beforeClass" is-config="true" duration-ms="29" started-at="2021-04-10T21:33:26Z" finished-at="2021-04-10T21:33:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test_1()[pri:0, instance:test.TestHome@2ed0fbae]" name="test_1" duration-ms="4886" started-at="2021-04-10T21:33:26Z" description="Check if there is a home link and when click on it, it returns you to the main page." finished-at="2021-04-10T21:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1 -->
+        <test-method status="PASS" signature="test_2()[pri:0, instance:test.TestHome@2ed0fbae]" name="test_2" duration-ms="455" started-at="2021-04-10T21:33:31Z" description="Validate that when changing the language from Spanish to English, the text changes." finished-at="2021-04-10T21:33:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_2 -->
+        <test-method status="PASS" signature="test_3()[pri:0, instance:test.TestHome@2ed0fbae]" name="test_3" duration-ms="3819" started-at="2021-04-10T21:33:32Z" description="Check the following fields on the contacts page." finished-at="2021-04-10T21:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_3 -->
+        <test-method status="PASS" signature="test_4()[pri:0, instance:test.TestHome@2ed0fbae]" name="test_4" duration-ms="2280" started-at="2021-04-10T21:33:35Z" description="Verify the page contains 12 items." finished-at="2021-04-10T21:33:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_4 -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:test.TestHome@2ed0fbae]" name="endSession" is-config="true" duration-ms="1365" started-at="2021-04-10T21:33:38Z" finished-at="2021-04-10T21:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- test.TestHome -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
