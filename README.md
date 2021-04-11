@@ -9,7 +9,8 @@ En primer lugar, se necesitará descargar el siguiente software:
 * Java JDK 8 (1.8.0_231)
 * Maven
 * TestNG 
-* Eclipse IDE.
+* Eclipse IDE
+* Chromedriver 89
 
 # Ejecutar test en TestNG
 1. Dirigirse a Eclipse, en la barra de Menú entrar a la opción *Run* → *Run configurations...*
