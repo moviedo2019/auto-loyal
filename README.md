@@ -21,8 +21,8 @@ En primer lugar, se necesitará descargar el siguiente software:
 
 # Estructura del proyecto
 
-En la carpeta src/main/java se encuentra las page de la web y las properties que son utilizadas en los test y pages.
-En la carpeta src/test/java se encuentra los test con su metodo que realiza los pasos del test case.
-En la carpeta drivers esta el driver del browser que van ser usados por el test
-A nivel raiz del proyecto esta el POM y la suite testNG para ejecutar en un Jenkins.
-En la carpeta test-output se encuentra el reporte del testNG "index.html"
+* En la carpeta src/main/java se encuentra las page de la web y las properties que son utilizadas en los test y pages.
+* En la carpeta src/test/java se encuentra los test con su metodo que realiza los pasos del test case.
+* En la carpeta drivers esta el driver del browser que van ser usados por el test.
+* A nivel raiz del proyecto esta el POM y la suite testNG para ejecutar en un Jenkins.
+* En la carpeta test-output se encuentra el reporte del testNG "index.html"
